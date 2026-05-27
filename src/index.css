@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+
+  /* Selection styling */
+  ::selection {
+    @apply bg-indigo-500/30 text-indigo-200;
+  }
+}
+
+@layer utilities {
+  /* Premium Glassmorphism */
+  .glass-card-dark {
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(16px) saturate(120%);
+    -webkit-backdrop-filter: blur(16px) saturate(120%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card-light {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(140%);
+    -webkit-backdrop-filter: blur(16px) saturate(140%);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+  }
+
+  .glass-nav-dark {
+    background: rgba(7, 10, 19, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .glass-nav-light {
+    background: rgba(250, 250, 252, 0.75);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(15, 23, 42, 0.04);
+  }
+
+  /* Custom Glow Accents */
+  .text-glow-indigo {
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+  }
+
+  .text-glow-violet {
+    text-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+  }
+
+  .bg-radial-spotlight {
+    background: radial-gradient(800px circle at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(99, 102, 241, 0.08), transparent 80%);
+  }
+
+  .bg-radial-spotlight-light {
+    background: radial-gradient(800px circle at var(--mouse-x, 0px) var(--mouse-y, 0px), rgba(99, 102, 241, 0.04), transparent 80%);
+  }
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(99, 102, 241, 0.2);
+  border-radius: 9999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: background 0.3s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(99, 102, 241, 0.45);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Custom styles for animations */
+.glow-blur-indigo {
+  filter: blur(130px);
+  opacity: 0.15;
+}
+
+.glow-blur-violet {
+  filter: blur(130px);
+  opacity: 0.15;
+}
+
+/* Typing Caret Animation */
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.typing-caret::after {
+  content: '|';
+  animation: blink 0.8s infinite;
+  @apply text-indigo-500 ml-1 font-normal;
+}
