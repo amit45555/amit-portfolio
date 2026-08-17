@@ -62,28 +62,17 @@ export const experienceTimeline = [
   
   {
     id: 4,
-    role: "Fullstack Developer",
-    company: "dataeaze systems",
-    duration: "Sep 2025 - Dec 2025",
-    description: "I am a full stack developer currently working as a client. Fullstack developer building real-time industrial monitoring systems using React, Node.js, OPC UA, and WebSockets.",
+    role: "Software Engineer (Client Project)",
+    company: "Cognizant",
+    duration: "May 2023 - Present",
+    description: "I am a Software Engineer currently working as a client. Fullstack developer building real-time industrial monitoring systems using React, Node.js, OPC UA, and WebSockets.",
     bullets: [
       "Built low-latency dashboards, REST APIs, and scalable enterprise applications for manufacturing environments.",
       "Integrated real-time telemetry using OPC UA and WebSockets for operational visibility.",
       "Collaborated with stakeholders to deliver high-performance industrial monitoring solutions."
     ]
   },
-  {
-    id: 5,
-    role: "Fullstack Developer",
-    company: "Softkode Technologies Private Limited",
-    duration: "Feb 2023 - Sep 2025",
-    description: "Full Stack Developer at Softkode Technologies Private Limited, building secure enterprise web applications using React, TypeScript, Node.js, and PostgreSQL. Skilled in role-based access control, workflow automation, REST APIs, and responsive UI development.",
-    bullets: [
-      "Implemented RBAC-driven enterprise workflows and secure CRUD operations.",
-      "Developed responsive user interfaces and reusable React components.",
-      "Designed PostgreSQL-backed REST APIs to support scalable business applications."
-    ]
-  }
+ 
 ];
 
 export const projectsList = [
@@ -152,23 +141,7 @@ export const projectsList = [
       "RESTful API design with Swagger documentation and PostgreSQL persistence."
     ]
   },
-  {
-    id: 5,
-    title: "Jain Catering Website",
-    client: "Jain Caterers",
-    category: "Business Website",
-    shortDesc: "Responsive, SEO-friendly catering website built with React and integrated with WordPress blog.",
-    longDesc: "Developed a responsive and user-friendly catering business website for Jain Caterers using React. Designed multiple pages including Home, Menus, About Us, Our Chefs, Blog, and Contact. Integrated dynamic blog content fetched from WordPress APIs. Implemented modern UI with reusable components and smooth navigation. Optimized website performance and mobile responsiveness; deployed a production-ready build with SEO-friendly structure.",
-    tech: ["React.js", "JavaScript", "HTML", "CSS", "REST APIs", "WordPress API", "Responsive Design"],
-    stats: { "Pages": "6+", "Load Time": "<2s", "Mobile Friendly": "Yes" },
-    features: [
-      "Multi-page site: Home, Menus, About Us, Our Chefs, Blog, Contact.",
-      "Dynamic blog content via WordPress REST API.",
-      "Reusable React components and smooth client-side routing.",
-      "Performance optimizations and SEO-friendly build deployment."
-    ]
-  }
-
+  
 ];
 
 export const certifications = [
