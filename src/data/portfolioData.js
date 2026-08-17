@@ -9,7 +9,7 @@ export const personalInfo = {
   email: "amitnagpure555@gmail.com",
   phone: "+91 8668263440", // Placeholder for phone
   location: "Pune, Maharashtra, India",
-  summary: "Dynamic and results-driven Frontend & MERN Stack Developer with 3+ years of experience designing, building, and deploying mission-critical industrial monitoring dashboards and real-time data visualization systems. Specializes in building responsive React.js frontends integrated with Node.js/Express.js, real-time protocols like OPCUA, and high-frequency WebSocket channels. Proven track record of delivering resilient enterprise solutions for industry giants like Mahindra & Mahindra, ensuring zero-latency monitoring and reliable deployment under IIS and PM2."
+  summary: "Dynamic and results-driven Frontend & MERN Stack Developer with 3+ years of experience designing, building, and deploying mission-critical industrial monitoring dashboards and real-time data visualization systems. Specializes in building responsive React.js frontends integrated with Node.js/Express.js, real-time protocols like OPCUA, and high-frequency WebSocket channels. Proven track record of delivering resilient enterprise solutions for industry giants like company, ensuring zero-latency monitoring and reliable deployment under IIS and PM2."
 };
 
 export const stats = [
@@ -65,7 +65,7 @@ export const experienceTimeline = [
     role: "Fullstack Developer",
     company: "dataeaze systems",
     duration: "Sep 2025 - Dec 2025",
-    description: "I am a full stack developer currently working as a Mahindra and Mahindra client. Fullstack developer building real-time industrial monitoring systems using React, Node.js, OPC UA, and WebSockets.",
+    description: "I am a full stack developer currently working as a client. Fullstack developer building real-time industrial monitoring systems using React, Node.js, OPC UA, and WebSockets.",
     bullets: [
       "Built low-latency dashboards, REST APIs, and scalable enterprise applications for manufacturing environments.",
       "Integrated real-time telemetry using OPC UA and WebSockets for operational visibility.",
@@ -90,7 +90,7 @@ export const projectsList = [
   {
     id: 1,
     title: "Station Monitoring Dashboard",
-    client: "Mahindra & Mahindra",
+    client: "Industrial Manufacturing Client",
     category: "Real-Time Dashboard",
     shortDesc: "Enterprise MERN platform mapping real-time operational logs, cycle times, and hardware metrics for assembly line stations.",
     longDesc: "This is a mission-critical industrial web interface designed specifically for factory floor operators and plant managers. It displays live status flags, cycle-time deviations, and station statuses across multiple manufacturing bays. Powered by an OPCUA-to-WebSocket bridge, it processes massive real-time telemetry streams, allowing supervisors to preempt bottlenecking.",

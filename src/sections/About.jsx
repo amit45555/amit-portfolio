@@ -26,7 +26,7 @@ export const About = () => {
     {
       icon: <Sparkles className="text-amber-500" size={24} />,
       title: "Enterprise Delivery",
-      description: "Delivered highly interactive dashboards and log visualizers for leading manufacturing plants like Mahindra & Mahindra."
+      description: "Delivered highly interactive dashboards and log visualizers for leading manufacturing plants like Automotive Domain."
     }
   ];
 
@@ -115,7 +115,7 @@ export const About = () => {
               {/* System readout */}
               <div className="pt-4 border-t border-indigo-500/10 flex flex-col gap-1 text-left font-mono">
                 <div className={`text-[10px] leading-tight ${isDark ? 'text-slate-400' : 'text-slate-500'}`}>
-                  &gt; CLIENT: MAHINDRA_&_MAHINDRA_SYS
+                  &gt; CLIENT: Industrial Manufacturing Client
                 </div>
                 <div className="text-[9px] text-indigo-400 leading-none">
                   &gt; PROCESSOR_DELAY: &lt; 15ms // SOCKET.IO ACTIVE
