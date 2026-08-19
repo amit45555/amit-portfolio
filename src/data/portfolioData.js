@@ -3,7 +3,7 @@ export const personalInfo = {
   role: "MERN Stack & Industrial IoT Developer",
   experienceYears: 3,
   tagline: "Bridging the gap between physical machinery and beautiful, real-time web applications.",
-  resumeUrl: "/amit_nagpure_resume14.pdf", // Add your resume file name here
+  resumeUrl: "/Amit_Nagpure_Resume_1.pdf", // Add your resume file name here
   linkedinUrl: "https://www.linkedin.com/in/amit-nagpure-4944b025a",
   githubUrl: "https://github.com/amit45555",
   email: "amitnagpure555@gmail.com",
